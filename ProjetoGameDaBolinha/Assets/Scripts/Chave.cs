@@ -15,9 +15,9 @@ public class Chave : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collisioninfo)
     {
-        UnityEngine.Debug.Log("Abre porta");
+        FindAnyObjectByType<GerenciadorDeSons>().TocarSomDaChave();
         Destroy(portaParaAbrir);
         Destroy(this.gameObject);   
     }
