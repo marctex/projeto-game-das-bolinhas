@@ -16,10 +16,12 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         playerRB.linearVelocity = movementPlayer * speedPlayer;
+        
     }
 
     private void OnMove(InputValue value)
     {
         movementPlayer = value.Get<Vector2>();
     }
+    
 }

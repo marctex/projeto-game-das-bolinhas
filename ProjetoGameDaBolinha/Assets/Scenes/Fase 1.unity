@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &90145465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5168612682001870572, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+  m_PrefabInstance: {fileID: 6545444965717326292}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &129618227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -833,6 +838,38 @@ PrefabInstance:
     - target: {fileID: 7407474529837419074, guid: babbac171161a9746b8596a1037c3acf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_ActionId
+      value: 1a13be2c-491e-4d5c-959c-ded491040ca7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_ActionName
+      value: 'Player/Sair[/Keyboard/escape]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 90145465}
+    - target: {fileID: 8821617072996107371, guid: babbac171161a9746b8596a1037c3acf, type: 3}
+      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

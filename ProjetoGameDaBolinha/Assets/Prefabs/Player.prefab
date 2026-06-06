@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 896570443177271922}
   - component: {fileID: 8821617072996107371}
   - component: {fileID: 3032024530026429628}
+  - component: {fileID: -413492919056779274}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -304,3 +305,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9432dc37826f5c4781693686f0686c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &-413492919056779274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5168612682001870572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3d63aa90be06549b50ac5f43c7d025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SairDoJogo
